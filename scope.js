@@ -21,3 +21,23 @@ console.log(a)
     console.log(b)
 }
 console.log(a)//---->global scope
+
+/*console.log(a)//--->undefined
+var a=1
+var b
+console.log(b)//--->undefined
+
+// variable hoisting
+console.log(a)//--->reference error
+let a=1
+var b
+console.log(b)//--->undefined
+
+//functional hiosting
+//  local scope doesnot know what is konow 
+// hoisting knows a but it cannot access it*/
+
+
+
+
+
