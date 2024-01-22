@@ -22,3 +22,4 @@ kongu["food"] = "average"
 kongu["hostelcount"] = 10
 console.log(kongu)
 console.log(kongu.food)
+console.log(kongu["hostelcount"])
