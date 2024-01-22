@@ -12,7 +12,7 @@ console.log(i)//--->reference error
 }
 console.log(i)
 
-var a=10//---->block scope
+var a=10//---->global scope
 console.log(a)
 {
     let a=5//--->local scope
@@ -20,4 +20,4 @@ console.log(a)
     console.log(a)
     console.log(b)
 }
-console.log(a)//---->block scope
+console.log(a)//---->global scope
