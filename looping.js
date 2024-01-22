@@ -39,10 +39,18 @@ for(var i=0;i<a;i++)
 {
    console.log(arr2[i])
 }
+arr2 =[20.5,20,'prawin',true]
+for(const index in arr2){
+    console.log("The value present in",index,"is",arr2[index])
+}
 
 
-
-
+for(const value of arr2){
+    console.log(value)
+}
+arr.forEach(index=>{
+    console.log(index)
+})
 
 
 
