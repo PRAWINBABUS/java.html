@@ -28,6 +28,8 @@ for(i of mapEg)
 {
     console.log(i)
 }
+console.log(mapEg.has("name"))
+
 
 
 
