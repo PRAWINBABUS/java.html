@@ -30,9 +30,12 @@ for(i of mapEg)
 }
 console.log(mapEg.has("name"))
 
+mapEg.set("age","20")
+mapEg.set("phone_no","9383737020")
+console.log(mapEg)
 
-
-
+mapEg.delete("phone_no","9383737020")
+console.log(mapEg)
 
 
 
